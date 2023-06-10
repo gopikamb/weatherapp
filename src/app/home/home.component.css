@@ -1,0 +1,215 @@
+
+  .wrapper.three {
+    background-color: #010c3d;
+}
+.three h3 {
+    font-family: "Ranchers", cursive;
+    background: url(https://drive.google.com/uc?export=view&id=1qvnbL55D_X7Bzo6fwwtXNyjhBhgi1iyX);
+    margin-left:28rem;
+    display: inline-flex;
+    font-size: 5rem;
+    background-position: 0 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: animatedOne 30s linear infinite;
+}
+@keyframes animatedOne {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+.container-fluid{
+    margin-left:260px;
+  margin-top:-850px;
+}
+img{
+    height:1200px;
+    width:100%;
+background-image: none;
+background-attachment:fixed ;
+background: cover;
+}
+
+#ca{
+    margin-top:-420px;
+    margin-left:690px;
+    background-color:rgb(208, 118, 9);
+    opacity:0.5;
+}
+h5 span{
+    color:rgb(8, 8, 224);
+}
+
+#h{
+    color: rgb(132, 235, 235);
+    margin-top: -550px;
+    font-size: 100px;
+    margin-left: 100px;
+    text-align: center;
+    }
+    #img{
+    width: 100%;
+    height:400px;
+    }
+    img{
+        width: 100%;
+    height:650px;}
+    #i1{
+        background-color: rgb(127, 99, 153);
+        margin-left: 300px;
+        border: 15px solid rgb(101, 103, 175);
+    }
+    
+
+    #d2{
+        padding: 5px;
+        margin-left: 550px;
+        margin-top: 120px;
+        width: 500px;
+        color: rgb(153, 144, 144);
+        text-align: center;
+    }
+  
+      
+    #iii{
+        margin-left: 825px;
+        margin-top: -300px;
+        font-size: 30px;
+        color: brown;
+        border: solid rgb(34, 24, 24);
+        padding: 10px;
+    }
+    #ip{
+        border-radius: 50% solid red;
+    }
+    #floatingIn{
+        background-color: aquamarine;
+    }
+    span{
+        color: rgb(60, 3, 51);
+        height:25px;
+    }
+.wi{
+        height:200px;
+        width:550px;
+        margin-top:-660px;
+        margin-left:700px;
+    }
+    .container{
+        height:500px;
+    }
+    
+
+    /*  */
+    @import url("https://fonts.googleapis.com/css2?family=Reggae+One&family=Source+Sans+Pro&family=Oleo+Script&family=Dela+Gothic+One&family=Atma&display=swap");
+
+/* ----- RESET ----- */
+
+
+body {
+	font-size: 16px;
+	background-color: #e2efff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+body,
+select,
+option,
+button {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+
+
+
+.item {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: calc(100% - calc(4.8rem * 2));
+	max-width: 450px;
+	padding: 2.3rem;
+	margin-bottom: 2.2rem;
+	display: flex;
+	flex-direction: column;
+	border-radius: 1.7rem;
+	box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+	transform: translateY(-1rem);
+	backdrop-filter: blur(1.5rem);
+    height:550px;
+    margin-top:-620px;
+    margin-left:800px;
+
+}
+
+
+
+.item figure {
+	width: 100%;
+	margin-bottom: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 1.5rem;
+}
+
+.item figure img {
+	height: 270px;
+	display: block;
+}
+
+.description {
+	
+	width: calc(100% - calc(2.8rem * 2));
+	height: 200px;
+	line-height: 1.75rem;
+	padding: 2.5rem;
+	position: absolute;
+	top: calc(2.8rem + 3.3rem);
+	left: 2.8rem;
+	overflow: auto;
+	opacity: 0;
+	border-radius: 1.5rem;
+	transition: opacity 200ms ease-out;
+}
+
+.item figure:hover + .description,
+.description:hover {
+	opacity: 0.6;
+}
+
+.item button {
+	width: 100%;
+	color: #d99904;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-shadow: 0 -1px #ffc233;
+	background-image: linear-gradient(#ffe46e 0%, #ffd936 30% 80%, #ffcd19 100%);
+	padding: 1.4rem;
+	border: solid 1px #c98d00;
+	outline: none;
+	border-radius: 2.5rem / 50%;
+	transition: filter 500ms ease-out;
+}
+
+.item button:hover {
+	filter: brightness(90%);
+}
+
+.item button:active {
+	filter: brightness(80%);
+}
+
+
+label {
+	margin-bottom: 0.7rem;
+}
+.ca{
+    margin-left:200px;
+	margin-top:-80px;
+}

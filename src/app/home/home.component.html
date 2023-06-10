@@ -1,0 +1,70 @@
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+    </style>
+
+<div id="gopi">
+  <div>
+    <div class="wrapper three">
+        <div>
+            <h3>WEATHER  APP</h3>
+        </div>
+    </div>
+
+<div class="image">
+  <img src="https://wallpaperaccess.com/full/8088668.gif" alt="image">
+
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid mb-5">
+      <form class="d-flex" role="search">
+        <input name="search" [(ngModel)]="weath" class="form-control me-3" type="text" placeholder="Search Your City" aria-label="Search">
+        <button class="btn btn-primary"  (click)="getweth()" type="button">Search</button>
+      </form>
+    </div>
+  </nav>
+</div>
+
+
+
+<div class="item"  *ngIf="weatherdata" >
+	<figure>
+    <img [src]="img" class="card-img-top" alt="img here" height="20px"*ngIf="weatherdata">
+	</figure>
+	<p class="description">
+    <div *ngIf="weatherdata" class=" mb-1  col-lg-6" >
+      <label for="floatingInput" class="inl"><span>Place:</span></label>
+      <input type="text" class="form-control" id="floatingInput" [placeholder]="weatherdata.name">
+      </div>
+      <div *ngIf="weatherdata" class="ca mb-2 col-lg-6" >
+        <label for="floatingIn"><span>Temperature:</span></label>
+      <input type="text" class="form-control" id="floatingin" [placeholder]="weatherdata.main.temp">
+     
+     </div>
+     <div *ngIf="weatherdata"class="mb-2  col-lg-6" >
+      <label for="floatingPassw" ><span>Country:</span></label>
+     <input type="text" class="form-control" id="floatingPassw" [placeholder]="weatherdata.sys.country">
+     
+     </div>
+     <div *ngIf="weatherdata" class="ca mb-2  col-lg-6">
+      <label for="floati" ><span>Humidity:</span></label>
+     <input type="text" class="form-control" id="floati" [placeholder]="weatherdata.main. humidity">
+   </div>
+   <div *ngIf="weatherdata" class="mb-2  col-lg-6">
+    <label for="float" >Pressure:</label>
+     <input type="text" class="form-control" id="float" [placeholder]="weatherdata.main.pressure" >
+   </div>
+
+   <div *ngIf="weatherdata" class="ca mb-1  col-lg-6">
+    <label for="floatq" > Feels like:</label>
+     <input type="text" class="form-control" id="floatq" [placeholder]="weatherdata.main.feels_like" >
+   </div>
+      <br>
+   
+      <a class="btn btn-primary text-center" href="">Go back</a>
+    
+   
+    </div>
+
+</div>
+
